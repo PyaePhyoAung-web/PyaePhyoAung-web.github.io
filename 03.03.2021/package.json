@@ -1,0 +1,17 @@
+{
+  "name": "fetch_task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node .",
+    "dev":"nodemon ."
+  },
+  "keywords": [],
+  "author": "Pyae Phyo Aung",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
