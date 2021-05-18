@@ -99,6 +99,12 @@
   margin-left: 100px;
 }
 
+#nav-toggle:checked ~ .main-content header{
+  width: calc(100% - 70px) ;
+    left: 70px;
+}
+
+
 .main-content {
     transition: margin-left 300ms;
     margin-left: 345px;
@@ -114,6 +120,7 @@ header {
     width: calc(100% - 345px);
     top: 0;
     z-index: 100;
+    transition: left 300ms;
 }
 
 #nav-toggle {
