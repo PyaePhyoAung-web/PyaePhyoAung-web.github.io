@@ -23,6 +23,7 @@
     height: 100%;
     background: var(--main-color);
     z-index: 100;
+    transition: width 300ms;
 }
 
 .sidebar-brand{
@@ -94,8 +95,13 @@
    display: none;
 }
 
+#nav-toggle:checked ~ .main-content {
+  margin-left: 100px;
+}
+
 .main-content {
- margin-left: 345px;
+    transition: margin-left 300ms;
+    margin-left: 345px;
 }
 
 header {
