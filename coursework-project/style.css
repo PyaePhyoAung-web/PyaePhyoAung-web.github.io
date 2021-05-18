@@ -211,6 +211,11 @@ td .status {
     border-radius: 50%;
 }
 
+tr td:last-child{
+    display: flex;
+    align-items: center;
+}
+
 .status.purple {
     background: rebeccapurple;
 }
