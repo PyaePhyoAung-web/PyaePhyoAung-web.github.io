@@ -70,8 +70,14 @@
    width: 100px;
 }
 
+#nav-toggle:checked + .sidebar .sidebar-brand h2,
+#nav-toggle:checked + .sidebar li a
+{
+  padding-left: 1rem;
+}
+
 #nav-toggle:checked + .sidebar .sidebar-brand h2 span:last-child,
-#nav-toggle:checked + .sidebar li a span:last-child,
+#nav-toggle:checked + .sidebar li a span:last-child
 {
    display: none;
 }
