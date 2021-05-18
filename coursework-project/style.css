@@ -342,7 +342,6 @@ tr td:last-child{
 }
      .sidebar:hover {
        width: 345px;
-         z-index: 200;
     }
 
     .sidebar:hover .sidebar-brand,
