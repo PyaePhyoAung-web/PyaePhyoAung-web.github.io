@@ -54,7 +54,7 @@
 }
 
 .sidebar-menu a.active{
-    background: #fff;
+    background: #070404;
     padding: 1rem;
     padding-bottom: 1rem;
     color: var(--main-color);
