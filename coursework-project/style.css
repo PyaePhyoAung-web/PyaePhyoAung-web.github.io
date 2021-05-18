@@ -232,7 +232,7 @@ tr td:last-child{
     overflow-x: auto;
 }
 
-.customer{
+.member{
     display: flex;
     justify-content: space-between;
     align-items: center;
