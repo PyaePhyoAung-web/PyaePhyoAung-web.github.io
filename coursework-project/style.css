@@ -58,7 +58,7 @@
     padding: 1rem;
     padding-bottom: 1rem;
     color: var(--main-color);
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 20px 0px 0px 20px;
 }
 
 .sidebar-menu a span:first-child{
