@@ -111,9 +111,10 @@
 }
 
 header {
+    background: #fff;
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 1rem 1.5rem;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     position: fixed;
     left: 345px;
@@ -306,5 +307,47 @@ tr td:last-child{
     margin-left: .5rem;
     color: var(--main-color);
 }
+
+
+@media only screen and (max-width: 1200px){
+    .sidebar {
+       width: 100px;
+    }
+
+    .sidebar .sidebar-brand,
+    .sidebar li  
+    {
+      padding-left: 1rem;
+        text-align: center;
+    }
+
+    .sidebar li a 
+    {
+      padding-left: 0rem;
+    }
+
+
+   .sidebar li a span
+    {
+      padding-right: 1rem;
+    }
+
+    .sidebar .sidebar-brand h2 span:last-child,
+    .sidebar li a span:last-child
+    {
+       display: none;
+    }
+
+    .main-content {
+      margin-left: 100px;
+    }
+
+    .main-content header{
+      width: calc(100% - 70px) ;
+        left: 70px;
+}
+}
+
+
 
 
